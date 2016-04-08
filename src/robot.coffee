@@ -362,7 +362,7 @@ class Robot
 
       catch error
         @logger.error "Unable to load #{full}: #{error.stack}"
-        process.exit(1)
+      #  process.exit(1)
 
   # Public: Loads every script in the given path.
   #
